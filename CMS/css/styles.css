@@ -7,9 +7,12 @@ body {
 	background-color: lightskyblue;
 }
 #header-nav {
-	background-color: steelblue;
+	background-color: midnightblue;
 	border-radius: 0;
 	border: 0;
+}
+.navbar>.container {
+	justify-content: flex-start;
 }
 #logo-img {
 	background: url("/images/logo.png")  no-repeat;
@@ -20,6 +23,7 @@ body {
 }
 .navbar-brand {
 	padding-top: 25px;
+	float: left;
 }
 .navbar-brand h1 {
 	color: gold;
@@ -31,7 +35,7 @@ body {
 	margin-bottom: 0;
 	line-height: 0.75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
 .navbar-brand p {
