@@ -14,20 +14,24 @@ body {
 .navbar>.container {
 	justify-content: flex-start;
 }
-#logo-img {
-	background: url("logo.png")  no-repeat;
+/* #logo-img {
+	background: url("GCJ.png")  no-repeat;
 	background-size: 150px 150px;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10ppx 0;
+}           THIS WAS HERE INSTEAD OF #GCJ BELOW ... BUT SOMEHOW IT DIDN'T WORK FOR ME :( */
+#GCJ {
+	width: 150px;
+	height: 150px;
 }
 #best {
-    width: 110px; 
-    height: 105px;
+    width: 105px; 
+    height: 90px;
+    padding-left: 15px;
 }
 .navbar-brand {
-	padding-top: 25px;
-	float: left;
+	padding-top: 35px;
 }
 .navbar-brand h1 {
 	color: gold;
@@ -38,6 +42,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 0.75;
+	padding-left: 30px;
 }
 .navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
