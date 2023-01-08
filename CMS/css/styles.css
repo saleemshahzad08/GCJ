@@ -1,0 +1,45 @@
+* {
+	font-family: 'Times New Roman', Georgia, Garamond, serif;
+}
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: lightskyblue;
+}
+#header-nav {
+	background-color: steelblue;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img {
+	background: url("/images/logo.png")  no-repeat;
+	background-size: 150px 150px;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10ppx 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	color: gold;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px darkred;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: gold;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {
+	vertical-align: middle;
+}
