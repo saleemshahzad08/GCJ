@@ -11,7 +11,9 @@ body {
   border-radius: 0;
   border: 0;
 }
-
+.navbar-header {
+  display: inline-block;
+}
 #logo-img {
   background: url('../images/GCJ.png') no-repeat;
   width: 131px;
@@ -55,7 +57,25 @@ body {
 .navbar>.container {
   display: inline-block;
 }
-
+.navbar-toggle {
+  float: right;
+}
+#navbarNav {
+  padding-top: 23px;
+}
+.nav-link {
+  width: 110px;
+  text-align: center;
+  color: gold;
+  background-color: darkred;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.navbar-toggler {
+  background-color: steelblue;
+  margin-top: 22px;
+}
 
 
 
