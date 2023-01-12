@@ -1,58 +1,139 @@
-* {
-	font-family: 'Times New Roman', Georgia, Garamond, serif;
-}
 body {
-	font-size: 16px;
-	color: #fff;
-	background-color: lightskyblue;
+  font-size: 16px;
+  color: #fff;
+  background-color: lightskyblue;
+  font-family: 'Times New Roman', Georgia, sans-serif;
 }
+
+/** HEADER **/
 #header-nav {
-	background-color: midnightblue;
-	border-radius: 0;
-	border: 0;
+  background-color: midnightblue;
+  border-radius: 0;
+  border: 0;
 }
-.navbar>.container {
-	justify-content: flex-start;
+
+#logo-img {
+  background: url('../images/GCJ.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
-/* #logo-img {
-	background: url("GCJ.png")  no-repeat;
-	background-size: 150px 150px;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10ppx 0;
-}           THIS WAS HERE INSTEAD OF #GCJ BELOW ... BUT SOMEHOW IT DIDN'T WORK FOR ME :( */
-#GCJ {
-	width: 150px;
-	height: 150px;
-}
-#best {
-    width: 105px; 
-    height: 90px;
-    padding-left: 15px;
-}
+
 .navbar-brand {
-	padding-top: 35px;
+  padding-top: 25px;
 }
-.navbar-brand h1 {
-	color: gold;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px darkred;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: 0.75;
-	padding-left: 30px;
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Times New Roman', Georgia, sans-serif;
+  color: gold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px darkred;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-left: 12.5px;
 }
-.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
-.navbar-brand p {
-	color: gold;
-	text-transform: uppercase;
-	font-size: .7em;
-	margin-top: 15px;
+.navbar-brand p { /* Kosher cert */
+  color: gold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px darkred;
+  font-size: .7em;
+  margin-top: 15px;
 }
-.navbar-brand p span {
-	vertical-align: middle;
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: gold;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: red;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid gold;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+.navbar-nav>li>a {
+  line-height: 10px;
+}
+/* END HEADER */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
