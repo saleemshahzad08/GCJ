@@ -91,6 +91,31 @@ body {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
+#life-jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.container .life {
+  box-shadow: 0 0 50px #3F0C1F;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+}
+  #xs-available {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: darkred;
+  }
+
+  .description {
+    margin-top: 5px;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: darkred;
+  }
+
 
 #life-tile, #publications-tile, #map-tile {
   height: 250px;
@@ -125,6 +150,9 @@ body {
   color: #fff;
   opacity: .8;
 }
+a.topic {
+  text-decoration: none;
+}
 
 /* End Homepage */
 
@@ -152,6 +180,25 @@ body {
   margin-top: 25px;
 }
 /* END FOOTER */
+#head1, #head2, #head3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 5px 5px 10px midnightblue;
+  margin-bottom: 20px;
+}
+.adm-details>p {
+  color: midnightblue;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.p-pic {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 
 
@@ -162,6 +209,20 @@ body {
     background: url('../images/jumbotron-lg.jpg') no-repeat;
     height: 480px;
     width: 100%;
+  }
+#life-jumbotron {
+    background: url('../images/faculty-lg.jpeg') no-repeat;
+    height: 757px;
+    width: 100%; 
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: midnightblue;
+    color: gold;
   }
 }
 
@@ -183,9 +244,22 @@ body {
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron-md.jpg') no-repeat;
-    height: 402px;
+    height: 398px;
+  }
+  #life-jumbotron {
+    background: url('../images/faculty-md.jpeg') no-repeat;
+    height: 627px;
   }
   /* End Home Page */
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: midnightblue;
+    color: gold;
+  }
 
 }
 
@@ -195,9 +269,22 @@ body {
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron-sm.jpg') no-repeat;
-    height: 310px;
+    height: 305px;
+  }
+  #life-jumbotron {
+    background: url('../images/faculty-sm.jpeg') no-repeat;
+    height: 480px;  
   }
   /* End Home Page */
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: midnightblue;
+    color: gold;
+  }
 
 }
 
@@ -237,15 +324,12 @@ body {
     background-color: midnightblue;
     color: gold;
   }
-  #xs-available {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: darkred;
-  }
 
     .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #life-jumbotron {
     margin-top: 30px;
     padding: 0;
   }
@@ -267,5 +351,14 @@ body {
     width: 50%;
   }
   /* End Footer */
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: midnightblue;
+    color: gold;
+  }
 }
 
